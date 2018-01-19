@@ -1,3 +1,6 @@
 <p>
-  {{tulos}}
+    {{tulos}}
+</p>
+<p *ngFor="let osoite of apiTulos">
+    {{ osoite.name.fi }} <br> {{osoite.street_address.fi}}
 </p>
